@@ -1,9 +1,9 @@
 import Link from "next/link";
 import React from "react";
 
-const Button = ({ styleClass, value, onClick }) => {
+const Button = ({ styleClass, value, onClick, params }) => {
   return (
-    <Link href="/menu">
+    <Link href={`/${params}`}>
       <button className={`${styleClass}`} onClick={onClick}>
         {value}
       </button>

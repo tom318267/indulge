@@ -2,6 +2,7 @@
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import Link from "next/link";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
@@ -33,16 +34,21 @@ const Navbar = () => {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-between">
                 <div className="flex-shrink-0 flex items-center">
-                  <img
-                    className="block lg:hidden h-8 w-auto"
-                    src="/images/mobileIndulgeLogo.svg"
-                    alt="Workflow"
-                  />
-                  <img
-                    className="hidden lg:block h-8 w-auto"
-                    src="/images/mobileIndulgeLogo.svg"
-                    alt="Workflow"
-                  />
+                  <Link href="/">
+                    <img
+                      className="block lg:hidden h-8 w-auto"
+                      src="/images/mobileIndulgeLogo.svg"
+                      alt="Workflow"
+                    />
+                  </Link>
+
+                  <Link href="/">
+                    <img
+                      className="hidden lg:block h-8 w-auto"
+                      src="/images/mobileIndulgeLogo.svg"
+                      alt="Workflow"
+                    />
+                  </Link>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
@@ -50,7 +56,7 @@ const Navbar = () => {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="text-white px-3 pt-2 rounded-md font-ranga text-[26px]"
+                        className="text-white px-3 pt-2 rounded-md font-varela text-[18px]"
                         aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
@@ -140,7 +146,7 @@ const Navbar = () => {
                   as="a"
                   href={item.href}
                   className=" text-white
-                  font-ranga text-[26px]
+                  font-varela text-[18px]
                     block px-3 py-2 rounded-md"
                   aria-current={item.current ? "page" : undefined}
                 >

@@ -8,6 +8,7 @@ module.exports = {
       cherry: ["Cherry Swash", "cursive"],
       sansita: ["Sansita Swashed", "cursive"],
       ranga: ["Ranga", "cursive"],
+      varela: ["Varela Round", "sans-serif"],
     },
 
     extend: {

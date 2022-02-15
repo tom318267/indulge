@@ -10,6 +10,10 @@ const Layout = ({ title, keywords, description, children }) => {
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords} />
         <link rel="icon" href="/favicon.ico" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&family=Sansita+Swashed:wght@300;400;500;600;700&family=Varela+Round&display=swap"
+          rel="stylesheet"
+        />
       </Head>
 
       <Navbar />

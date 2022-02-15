@@ -14,14 +14,15 @@ const Homepage = () => {
             <span className="text-white">Good</span> Times{" "}
             <span className="text-white">Roll.</span>
           </h1>
-          <p className="font-sansita text-[20px] mb-6 leading-[25px]">
+          <p className="font-varela text-[20px] mb-6 leading-[25px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Sollicitudin molestie sollicitudin sed ut aliquet accumsan interdum
             amet.
           </p>
           <Button
-            styleClass="Button bg-darkPink w-[178px] text-white rounded-full h-[47px] p-[5px] font-ranga text-[24px]"
+            styleClass="Button bg-darkPink w-[178px] text-white rounded-full h-[47px] p-[5px] font-varela text-[20px]"
             value="Shop Now"
+            params="menu"
           />
         </div>
 
