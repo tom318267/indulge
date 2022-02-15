@@ -20,7 +20,7 @@ const Homepage = () => {
             amet.
           </p>
           <Button
-            styleClass="Button bg-darkPink w-[178px] text-white rounded-full h-[47px] p-[5px] font-varela text-[20px]"
+            styleClass="Button bg-darkPink w-[178px] text-white rounded-full h-[47px] p-[8px] font-varela text-[20px]"
             value="Shop Now"
             params="menu"
           />
@@ -42,10 +42,6 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-
-      <IceCream />
-      <Bars />
-      <Milkshakes />
     </>
   );
 };

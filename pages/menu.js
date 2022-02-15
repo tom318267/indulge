@@ -3,7 +3,7 @@ import Button from "../components/Button";
 import Layout from "../components/Layout";
 import { DATA } from "../data";
 
-const Menu = ({ data }) => {
+const Menu = () => {
   return (
     <Layout>
       <div className="Menu font-cherry pt-14">

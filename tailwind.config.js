@@ -7,6 +7,7 @@ module.exports = {
     fontFamily: {
       cherry: ["Cherry Swash", "cursive"],
       sansita: ["Sansita Swashed", "cursive"],
+      regularSansita: ["Sansita", "sans-serif"],
       ranga: ["Ranga", "cursive"],
       varela: ["Varela Round", "sans-serif"],
     },

@@ -56,7 +56,7 @@ const Navbar = () => {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="text-white px-3 pt-2 rounded-md font-varela text-[18px]"
+                        className="text-white px-3 rounded-md pt-1 font-sansita text-[18px]"
                         aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
@@ -66,9 +66,11 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="absolute inset-y-0 space-x-4 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button type="button" className="p-1 rounded-full text-white">
-                  <img src="/images/cart.svg" alt="" />
-                </button>
+                <Link href="/cart">
+                  <button type="button" className="p-1 rounded-full text-white">
+                    <img src="/images/cart.svg" alt="" />
+                  </button>
+                </Link>
 
                 {/* Profile dropdown */}
                 <Menu as="div" className="ml-3 relative">
@@ -146,7 +148,7 @@ const Navbar = () => {
                   as="a"
                   href={item.href}
                   className=" text-white
-                  font-varela text-[18px]
+                  font-sansita text-[18px]
                     block px-3 py-2 rounded-md"
                   aria-current={item.current ? "page" : undefined}
                 >
